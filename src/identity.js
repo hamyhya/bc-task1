@@ -1,0 +1,9 @@
+const identity = {
+    name: 'Ilham Bagas Saputra',
+    phone: '+62895333645502',
+    email: 'ilhambagas92@gmail.com'
+}
+
+console.log(identity)
+
+module.export
