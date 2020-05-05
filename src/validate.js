@@ -1,5 +1,5 @@
 function usernameCheck(username) {
-    if (username.match(/[A-Z]/i) && username.length > 5) {
+    if ((username.match(/[A-Z]/i) || (username.match(/[0-9]/))) && username.length > 5) {
       return true
     }
     return false
@@ -12,7 +12,7 @@ function usernameCheck(username) {
     return false
   }
 
-console.log(usernameCheck('Ilhambagas'))
+console.log(usernameCheck('Ilhambagas92'))
 console.log(usernameCheck('bagas'))
 
 console.log(passwordCheck('arkademy12345'))
