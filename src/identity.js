@@ -4,6 +4,5 @@ const identity = {
     email: 'ilhambagas92@gmail.com'
 }
 
-console.log(identity)
 
-module.export
+module.exports = identity
